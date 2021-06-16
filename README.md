@@ -4,6 +4,7 @@ A simple example for GraphQL, Node, and Apollo Server.
 
 **How to Run it?**
 
+- `npm install -g nodemon` to install nodemon globally.
 - `npm i` to install packages.
 - `npm start` to run it.
   Then go to `http://localhost:3001/graphql`
@@ -13,7 +14,11 @@ This project uses the repository pattern, that abstracts into different layers.
 
 - `repositories` Contains all the configuration, models and interaction between the API and DB.
 - `services` Contains methods for our **endpoints** aka **schemas** and interactes with the repository layer.
-- `schemas` A normal graphql schemas. - Each schema has a folder inside the **schemas** folder with two files. - `schemaName.resolvers.js` All the resolvers for the types. - `schemaName.types.js` All the types, mutations, inputs, etc. For our schemas. - `rootQuery.js` Container for all types and resolvers of our schemas.
+- `schemas` A normal graphql schemas.
+  - Each schema has a folder inside the **schemas** folder with two files.
+  - `schemaName.resolvers.js` All the resolvers for the types.
+  - `schemaName.types.js` All the types, mutations, inputs, etc. For our schemas.
+  - `rootQuery.js` Container for all types and resolvers of our schemas.
 
 ### For more information
 
