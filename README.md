@@ -7,7 +7,7 @@ A simple example for GraphQL, Node, and Apollo Server.
 - `npm install -g nodemon` to install nodemon globally.
 - `npm i` to install packages.
 - `npm start` to run it.
-  Then go to `http://localhost:3001/graphql`
+  Then go to `http://localhost:4000/graphql`
 
 **Folder Structure**
 This project uses the repository pattern, that abstracts into different layers.

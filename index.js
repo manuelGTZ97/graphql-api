@@ -9,7 +9,7 @@ app.use(cors());
 server.applyMiddleware({ app });
 
 dbContext().then(async () => {
-  app.listen(3001, () => {
-    console.log("server running at 3001");
+  app.listen(process.env.PORT || 4000, () => {
+    console.log("server running at 4000");
   });
 });
