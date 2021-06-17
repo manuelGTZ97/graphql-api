@@ -18,6 +18,10 @@ class BaseRepository {
 
     return this._model.create({ ...params });
   }
+
+  async deleteById(id) {
+    return this._model.findByIdAndRemove(id);
+  }
 }
 
 module.exports = BaseRepository;

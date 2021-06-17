@@ -15,6 +15,11 @@ function BaseServiceWithRepository(superclass) {
     async create(params) {
       return this._repository.create(params);
     }
+    
+    async deleteById(id) { 
+      return this._repository.deleteById(id);
+    }
+    
   };
 }
 module.exports = BaseServiceWithRepository;

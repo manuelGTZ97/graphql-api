@@ -21,6 +21,9 @@ const resolvers = {
     addBook: (parent, args) => {
       return _bookService.create(args.book);
     },
+    deleteBook: (parent, args) => {
+      return _bookService.deleteById(args.id);
+    },
   },
 };
 
