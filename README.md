@@ -25,3 +25,4 @@ This project uses the repository pattern, that abstracts into different layers.
 - [Modularizing your GraphQL schema code - Apollo Blog (apollographql.com)](https://www.apollographql.com/blog/backend/schema-design/modularizing-your-graphql-schema-code/)
 - [Resolvers - Apollo Server - Apollo GraphQL Docs](https://www.apollographql.com/docs/apollo-server/data/resolvers/)
 - [GraphQL Full Course - Novice to Expert - YouTube](https://www.youtube.com/watch?v=ed8SzALpx1Q&t=13559s)
+- [GraphQL Schemas - GraphQL](https://graphql.org/learn/schema/)

@@ -5,12 +5,24 @@ const typeDefs = gql`
     authors: [Author]
     author(id: ID!): Author
   }
+
+  input AuthorInput {
+    name: String!
+    birthDate: String!
+    biography: String!
+    photo: String!
+  }
+
+  extend type Mutation {
+    addAuthor(author: AuthorInput): Author
+  }
+
   type Author {
     _id: ID!
     name: String!
     birthDate: String!
     biography: String!
-    photo: ID!
+    photo: String!
     books: [Book]
   }
 `;

@@ -13,7 +13,7 @@ const typeDefs = gql`
     authorId: ID!
   }
 
-  type Mutation {
+  extend type Mutation {
     addBook(book: BookInput): Book
   }
 

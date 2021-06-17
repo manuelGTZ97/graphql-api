@@ -17,6 +17,11 @@ const resolvers = {
       return _bookService.getAllByAuthorId(parent._id);
     },
   },
+  Mutation: {
+    addAuthor: (parent, args) => {
+      return _authorService.create(args.author);
+    },
+  },
 };
 
 module.exports = resolvers;
