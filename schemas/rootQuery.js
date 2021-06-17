@@ -1,8 +1,8 @@
 const { ApolloServer, gql } = require("apollo-server-express");
 const { merge } = require("lodash");
 
-const BookSchema = require("./Book");
-const AuthorSchema = require("./Author");
+const BookSchema = require("./book");
+const AuthorSchema = require("./author");
 
 const typeDefs = gql`
   type Query {
