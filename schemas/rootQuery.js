@@ -22,6 +22,8 @@ const resolvers = {
 const server = new ApolloServer({
   typeDefs: [typeDefs, BookSchema.typeDefs, AuthorSchema.typeDefs],
   resolvers: merge(resolvers, BookSchema.resolvers, AuthorSchema.resolvers),
+  playground: true,
+  introspection: true,
 });
 
 module.exports = server;
