@@ -26,3 +26,11 @@ This project uses the repository pattern, that abstracts into different layers.
 - [Resolvers - Apollo Server - Apollo GraphQL Docs](https://www.apollographql.com/docs/apollo-server/data/resolvers/)
 - [GraphQL Full Course - Novice to Expert - YouTube](https://www.youtube.com/watch?v=ed8SzALpx1Q&t=13559s)
 - [GraphQL Schemas - GraphQL](https://graphql.org/learn/schema/)
+
+
+
+
+### Patterns and Inspirations
+
+- Used the repository pattern.
+- For `BaseServiceWithRepository.js` uses the mixin pattern thar allow us to create a superclass. More info. https://justinfagnani.com/2015/12/21/real-mixins-with-javascript-classes/#bettermixinsthroughclassexpressions
